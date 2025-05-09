@@ -1,4 +1,4 @@
-public class casting {
+public class Casting {
     public static void main(String[] args) {
 
         int a, b; // Valores inteiros
