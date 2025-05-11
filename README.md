@@ -1,3 +1,3 @@
 ﻿# java-udemy
 
-Repositório para o curso de java, irei armazenar os códigos e exemplos do curso.
+Repositório para o curso de java, irei armazenar os códigos e exemplos.
