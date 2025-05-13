@@ -10,7 +10,7 @@ public class Saida {
         double x = 10.7898; // Ponto flutuante
 
         System.out.println(y); // println faz quebra de linha
-        System.out.println(x);
+        System.out.println(x); // println faz quebra de linha
         System.out.printf("%.2f%n", x); // Este printf formatou o valor da variável x, que é double, para ter duas casas decimais
         System.out.printf("RESULTADO = %.2f metros%n", y); // Quase a mesma coisa que a linha anterior
         System.out.println("RESULTADO = " + y + " metros."); // Concatenar vários elementos por meio do sinal de mais
