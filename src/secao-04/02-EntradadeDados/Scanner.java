@@ -36,8 +36,8 @@ public class Scanner {
         // Trabalhando com vários tipos
         System.out.println("Digite uma string, um inteiro e um double por linha:"); // Tudo na mesma linha
         x = teclado.next(); // string
-        y = teclado.nextInt(); // Inteiro
-        z = teclado.nextDouble(); // Double
+        y = teclado.nextInt(); // inteiro
+        z = teclado.nextDouble(); // double
         System.out.print("Você digitou: " + x + ", " + y + ", " + z + ".");
 
         teclado.close(); // Descarta o objeto do tipo Scanner
