@@ -42,9 +42,7 @@ public class Scanner {
 
         teclado.close(); // Descarta o objeto do tipo Scanner
 
-
         /* OUTRO EXEMPLO
-
 
                 Scanner sc = new Scanner(System.in);
 
@@ -62,8 +60,8 @@ public class Scanner {
 
                 sc.close();
             }
-
-        }*/
+        }
+        */
 
     }
 
