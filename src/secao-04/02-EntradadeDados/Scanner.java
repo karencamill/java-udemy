@@ -45,7 +45,6 @@ public class Scanner {
         /* OUTRO EXEMPLO
 
                 Scanner sc = new Scanner(System.in);
-
                 System.out.println("Digite algumas coisas por linha:");
 
                 sc.nextLine(); // O nextLine consome um espaço vazio, por isso estou deixando aqui, no caso de haver um string vazio
@@ -61,7 +60,6 @@ public class Scanner {
                 sc.close();
             }
         }
-
         */
 
     }
