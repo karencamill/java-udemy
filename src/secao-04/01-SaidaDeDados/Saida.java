@@ -9,6 +9,10 @@ public class Saida {
         int y = 32; // Inteiro
         double x = 10.7898; // Ponto flutuante
 
+        int idade = 22;
+        String nome = "Karen";
+        double renda = 3000.0;
+
         System.out.println(y); // println faz quebra de linha
         System.out.println(x); // println faz quebra de linha
         System.out.printf("%.2f%n", x); // Este printf formatou o valor da variável x, que é double, para ter duas casas decimais
@@ -16,6 +20,14 @@ public class Saida {
         System.out.println("RESULTADO = " + y + " metros."); // Concatenar vários elementos por meio do sinal de mais
         System.out.println("Olá Mundo!");
         System.out.print("Fim do programa."); // print() não tem quebra de linha
+
+
+        System.out.println(idade);
+        System.out.println(nome);
+        System.out.println(renda);
+
+        Locale.setDefault(US);
+        System.out.printf("%s tem %d anos e recebe %.2f reais%n", nome, idade, renda);
 
     }
 
