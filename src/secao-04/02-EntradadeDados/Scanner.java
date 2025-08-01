@@ -9,6 +9,7 @@ public class Scanner {
         // Declarando variáveis
         String x;
         int y;
+        int k;
         double z;
         char zx;
 
