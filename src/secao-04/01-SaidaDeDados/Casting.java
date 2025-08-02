@@ -25,5 +25,6 @@ public class Casting {
 
         System.out.println(b);
 
+
     }
 }
