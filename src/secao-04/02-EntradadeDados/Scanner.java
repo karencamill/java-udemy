@@ -14,8 +14,8 @@ public class Scanner {
         char zx;
 
         // Trabalhando com strings
-        System.out.print("Digite alguma frase: ");
-        x = teclado.nextLine();
+        System.out.print("Digite alguma coisa: ");
+        x = teclado.next(); // Pega a primeira palavra
         System.out.println("Você digitou: " + x); // Concatenação
 
         // Trabalhando com inteiros
