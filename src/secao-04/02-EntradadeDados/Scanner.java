@@ -41,7 +41,7 @@ public class Scanner {
         z = teclado.nextDouble(); //  double
         System.out.print("Você digitou: " + x + ", " + y + ", " + z + ".");
 
-        teclado.close(); // Descarta o objeto do tipo Scanner
+        teclado.close(); //  Descarta o objeto do tipo Scanner
 
         /* OUTRO EXEMPLO
 
