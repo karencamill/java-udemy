@@ -48,7 +48,6 @@ public class Main {
                 System.out.println("x2 = " + x2);
 
             }
-
         }
 
         sc.close();
