@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 import static java.util.Locale.US;
 
+
 public class Exe {
     public static void main(String[] args) {
 
