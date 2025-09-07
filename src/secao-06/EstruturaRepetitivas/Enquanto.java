@@ -19,5 +19,6 @@ public class Enquanto {
         System.out.println(soma);
 
         sc.close();
+
     }
 }
