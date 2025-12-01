@@ -8,26 +8,24 @@ public class Main {
         // System.out.println("Olá Mundo");
        // System.out.println("Karen aqui!!!";
 
+                Locale.setDefault(US);
                 Scanner sc = new Scanner(System.in);
 
-                int n = sc.nextInt();
+                System.out.print("Digite a temperatura em Celsius: ");
+                double C = sc.nextDouble();
+                double F = 9.0 * C / 5.0 + 32.0;
+                System.out.printf("Equivalente em Fahrenheit: %.1f%n", F);
+                System.out.print("Deseja repetir (s/n)?");
+                char resp = sc.next().charAt(0);
 
-                int in = 0;
-                int out = 0;
-
-                for (int i=0; i<n; i++){
-                    int x = sc.nextInt();
-                    if (x >= 10 && x <= 20){
-                        in = in + 1;
-                    }
-                    else {
-                        out = out + 1;
-                    }
+                while (resp != 'n') {
+                    System.out.print("Digite a temperatura em Celsius: ");
+                    C = sc.nextDouble();
+                    F = 9.0 * C / 5.0 + 32.0;
+                    System.out.printf("Equivalente em Fahrenheit: %.1f%n", F);
+                    System.out.print("Deseja repetir (s/n)? ");
+                    resp = sc.next().charAt(0);
                 }
-
-                System.out.println();
-                System.out.println(in + " in");
-                System.out.println(out + " out");
 
                 sc.close();
             }
