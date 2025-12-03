@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 import static java.util.Locale.US;
 
-public class Main {
+public class Exemplo {
     public static void main(String[] args) {
 
         Locale.setDefault(US);
