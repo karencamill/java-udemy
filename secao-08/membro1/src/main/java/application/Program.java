@@ -26,6 +26,7 @@ public class Program {
         sc.close();
     }
 
+    // tem que declarar como (static) porque está dentro de um método static no caso (public static void main)
     public static double circumference(double radius) {
         return 2.0 * PI * radius;
     }
@@ -36,3 +37,4 @@ public class Program {
 
 
 }
+
