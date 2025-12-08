@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Program {
 
-    public static final double PI = 3.14;
+    public static final double PI = 3.14159;
 
     public static void main(String[] args) {
 
@@ -21,7 +21,7 @@ public class Program {
 
         System.out.printf("Circumference: %.2f%n", c);
         System.out.printf("Volume: %.2f%n", v);
-        System.out.print("PI value: " + PI);
+        System.out.printf("PI value: %.2f%n" , PI);
 
         sc.close();
     }
@@ -37,4 +37,5 @@ public class Program {
 
 
 }
+
 
