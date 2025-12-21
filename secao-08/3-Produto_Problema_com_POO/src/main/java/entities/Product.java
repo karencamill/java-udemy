@@ -10,11 +10,11 @@ public class Product {
         return price * quantity;
     }
 
-    public void addProdutcs(int quantity) {
+    public void addProducts(int quantity) {
         this.quantity += quantity;
     }
 
-    public void removeProdutcs(int quantity) {
+    public void removeProducts(int quantity) {
         this.quantity -= quantity;
     }
 
@@ -29,3 +29,4 @@ public class Product {
     }
 
 }
+
