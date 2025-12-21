@@ -40,7 +40,11 @@ public class Program {
         quantity = sc.nextInt();
         product.removeProdutcs(quantity);
 
+        System.out.println();
+        System.out.println("Update data: " + product);
+
         sc.close();
     }
 
 }
+
