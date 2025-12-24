@@ -14,7 +14,7 @@ public class Program {
         Locale.setDefault(US);
 
         // Scanner para ler dados digitados pelo usuário
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
 
         // Cria um objeto Product utilizando o construtor padrão
         Product product = new Product();
@@ -67,3 +67,4 @@ public class Program {
     }
 
 }
+
