@@ -23,10 +23,11 @@ public class Product {
                 + ", $ "
                 + String.format("%.2f", price)
                 + ", "
-                + quantity
+                + quantity 
                 + " units, Total: $ "
                 + String.format("%.2f", totalValueInStock());
     }
 
 }
+
 
