@@ -8,26 +8,37 @@ public class Main {
       //  System.out.println("Se eu não desistir o que será que acontece?");
       //  System.out.println("Eu não desisti ainda porque tem gente esperando eu vencer para vencer também :( ");
 
-        /* Validação de senha
-Peça ao usuário uma senha numérica.
-Enquanto a senha digitada for diferente de 1234, o programa deve pedir a senha novamente.
-Quando a senha correta for digitada, mostre uma mensagem de acesso permitido.
-        */
 
         Locale.setDefault(US);
         Scanner sc = new Scanner(System.in);
 
-        int senhaValida = 1234;
+        System.out.print("Digite um número: ");
+        int num = sc.nextInt();
+        int maior = num;
+        int menor = num;
 
-        System.out.print("Digite uma senha númerica: ");
-        int senha = sc.nextInt();
+        while(num != 0) {
 
-        while (senha != senhaValida) {
-            System.out.print("Digite a senha novamente: ");
-            senha = sc.nextInt();
+            if (num > maior) {
+                maior = num;
+            }
+            else if (num < menor) {
+                menor = num;
+            }
+
+            System.out.print("Digite outro número: ");
+            num = sc.nextInt();
         }
 
-        System.out.println("Acesso permitido!!");
+        if (num == 0) {
+            System.out.println("Nenhum número válido digitado.");
+        }
+
+        System.out.println();
+        System.out.println("O maior número é: " + maior);
+
+        System.out.println();
+        System.out.println("O menor número é: " + menor);
 
         sc.close();
 
