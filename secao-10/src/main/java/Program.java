@@ -1,3 +1,4 @@
+// 10/02/2026
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -22,7 +23,6 @@ public class Program {
         double media = soma / n;
 
         System.out.printf("AVERAGE HEIGHT: %.2f%n", media);
-
 
         sc.close();
     }
