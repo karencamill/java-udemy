@@ -1,3 +1,8 @@
+/*EXEMPLO 1 - 14/02/2026
+Fazer um programa para ler um número inteiro N e a altura de N
+pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a
+altura média dessas pessoas.*/
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -26,3 +31,4 @@ public class Program {
         sc.close();
     }
 }
+
