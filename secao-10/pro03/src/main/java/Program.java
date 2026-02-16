@@ -1,5 +1,6 @@
 /*Fazer um programa para ler nome, idade e altura de N pessoas, conforme exemplo. Depois, mostrar na
 tela a altura média das pessoas, e mostrar também a porcentagem de pessoas com menos de 16 anos,
+<<<<<<< HEAD
 bem como os nomes dessas pessoas caso houver. 16/02/2026 */
 
 import java.util.Locale;
@@ -64,3 +65,4 @@ public class Program {
 
     }
 }
+
