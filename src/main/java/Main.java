@@ -8,7 +8,6 @@ public class Main {
       //  System.out.println("Se eu não desistir o que será que acontece?");
       //  System.out.println("Eu não desisti ainda porque tem gente esperando eu vencer para vencer também :( ");
 
-
         Locale.setDefault(US);
         Scanner sc = new Scanner(System.in);
 
