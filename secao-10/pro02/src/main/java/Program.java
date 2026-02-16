@@ -1,4 +1,4 @@
-/*Faça um programa que leia N números reais e armazene-os em um vetor.
+/*Faça um programa que leia N números reais e armazene-os em um vetor. 15/02/2026
 Em seguida: - Imprimir todos os elementos do vetor - Mostrar na tela a soma e a média dos elementos do vetor */
 
 import java.util.Locale;
@@ -45,3 +45,4 @@ public class Program {
 
     }
 }
+
