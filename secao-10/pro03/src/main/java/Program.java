@@ -19,8 +19,6 @@ public class Program {
         int [] idades = new int[n];
         double[] alturas = new double[n];
 
-        double alturaTotal = 0.0;
-
         for (int i = 0; i < n; i++) {
             System.out.println("Dados da " + (i + 1) + "a pessoa: ");
             System.out.print("Nome: ");
@@ -35,11 +33,14 @@ public class Program {
             sc.nextLine();
         }
 
+        double alturaTotal = 0.0;
+
         for (int i = 0; i < n; i++) {
             alturaTotal = alturaTotal + alturas[i];
         }
 
         double alturaMedia = alturaTotal / n;
+
         System.out.println();
         System.out.printf("Altura média: %.2f\n" , alturaMedia);
 
