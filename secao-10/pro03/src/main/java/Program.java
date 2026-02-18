@@ -15,28 +15,28 @@ public class Program {
         int n = sc.nextInt();
         sc.nextLine();
 
-        String[] nome = new String[n];
-        int [] idade = new int[n];
-        double[] altura = new double[n];
+        String[] nomes = new String[n];
+        int [] idades = new int[n];
+        double[] alturas = new double[n];
 
         double alturaTotal = 0.0;
 
         for (int i = 0; i < n; i++) {
             System.out.println("Dados da " + (i + 1) + "a pessoa: ");
             System.out.print("Nome: ");
-            nome[i] = sc.nextLine();
+            nomes[i] = sc.nextLine();
 
             System.out.print("Idade: ");
-            idade[i] = sc.nextInt();
+            idades[i] = sc.nextInt();
             sc.nextLine();
 
             System.out.print("Altura: ");
-            altura[i] = sc.nextDouble();
+            alturas[i] = sc.nextDouble();
             sc.nextLine();
         }
 
         for (int i = 0; i < n; i++) {
-            alturaTotal = alturaTotal + altura[i];
+            alturaTotal = alturaTotal + alturas[i];
         }
 
         double alturaMedia = alturaTotal / n;
@@ -46,7 +46,7 @@ public class Program {
         int menores = 0;
 
         for (int i = 0; i < n; i++) {
-            if (idade[i] < 16) {
+            if (idades[i] < 16) {
                 menores++;
             }
         }
@@ -55,8 +55,8 @@ public class Program {
         System.out.printf("Pessoas com menos de 16 anos: %.2f%%\n", percentualMenores);
 
         for (int i = 0; i < n; i++) {
-            if (idade[i] < 16) {
-                System.out.println(nome[i]);
+            if (idades[i] < 16) {
+                System.out.println(nomes[i]);
             }
         }
 
@@ -64,4 +64,3 @@ public class Program {
 
     }
 }
-
