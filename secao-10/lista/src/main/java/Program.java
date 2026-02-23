@@ -14,15 +14,15 @@ public class Program {
         list.add("Bob"); // adicionei
         list.add("Anna"); // adicionei
         list.add(2, "Marco"); // adicionei na posição 2
-        list.add("Karen");
-        list.add(1, "Pedro");
-        list.add("Joao");
-        list.add("Kemilly");
-        list.add("Kahena");
+        list.add("Karen");  // adicionei
+        list.add(1, "Pedro"); // adicionei da posição 1
+        list.add("Joao"); // adicionei 
+        list.add("Kemilly"); // adicionei
+        list.add("Kahena"); // adicionei
 
-        System.out.println("LISTA: ");
-        for (String x : list) {
-            System.out.println(x);
+        System.out.println("LISTA: "); // mostra
+        for (String x : list) { // a 
+            System.out.println(x); // lista
         }
 
         System.out.println("-----------------------------");
