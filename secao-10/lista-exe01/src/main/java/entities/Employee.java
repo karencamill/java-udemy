@@ -1,0 +1,14 @@
+package entities;
+
+public class Employee {
+
+    private Integer id;
+    private String name;
+    private Double salary;
+
+    public void increaseSalary(double percentage){
+        percentage = salary * 0.10;
+    }
+
+
+}
