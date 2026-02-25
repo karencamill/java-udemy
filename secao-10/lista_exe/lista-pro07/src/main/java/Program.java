@@ -1,17 +1,15 @@
+/* Descobrir se um número está na lista 25/02/2026
+Ler 5 números
+Depois pedir um número
+Verificar se ele existe na lista
+Mostrar: "Encontrado" ou "Não encontrado"*/
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-
-        /*Descobrir se um número está na lista
-
-Ler 5 números
-Depois pedir um número
-Verificar se ele existe na lista
-Mostrar: "Encontrado" ou "Não encontrado"*/
-
 
         Scanner sc = new Scanner(System.in);
 
