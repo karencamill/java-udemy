@@ -1,6 +1,6 @@
 /* Mostrar posição de um número 25/02/2026
 Ler 5 números
-uardar na lista
+Guardar na lista
 Pedir um número
 Mostrar a posição dele na lista*/
 
