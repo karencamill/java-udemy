@@ -1,3 +1,10 @@
+/*Fazer um programa para ler dois números inteiros M e N, e depois ler
+uma matriz de M linhas por N colunas contendo números inteiros,
+podendo haver repetições. Em seguida, ler um número inteiro X que
+pertence à matriz. Para cada ocorrência de X, mostrar os valores à
+esquerda, acima, à direita e abaixo de X, quando houver, conforme
+exemplo.  01/03/2026 */
+
 import java.util.Scanner;
 
 public class Program {
@@ -5,12 +12,16 @@ public class Program {
 
         Scanner sc = new Scanner(System.in);
 
-        int linha = sc.nextInt();
-        int coluna = sc.nextInt();
+        System.out.print("Digite a quantidade de linhas da matriz: ");
+        int m = sc.nextInt(); // linhas
+        System.out.print("Digite a quantidade de colunas da matriz: ");
+        int n = sc.nextInt(); // colunas
 
+        System.out.println("A matriz terá: " + m + " linhas e " + n + " colunas.");
         System.out.println();
+        System.out.println("Digite a matriz: ");
 
-        int[][] mat = new int[linha][coluna];
+        int[][] mat = new int[m][n];
 
         for (int i = 0; i< mat.length; i++) {
             for (int j = 0; j<mat[i].length; j++) {
@@ -19,20 +30,12 @@ public class Program {
         }
 
         System.out.println();
-        System.out.println("Matriz digitada:");
+        System.out.print("Digite um número que deseja encontrar: ");
+        int x = sc.nextInt();
 
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[i].length; j++) {
-                System.out.print(mat[i][j] + " ");
-            }
-            System.out.println(); // pula linha ao final de cada linha
-        }
-
-        int num = sc.nextInt();
-
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[i].length; j++) {
-                if (mat[i][j] == num) {
+                if (mat[i][j] == x) {
                     System.out.println("Position " + i + "," + j);
                     if (j > 0) {
                         System.out.println("Left: " + mat[i][j-1]);
